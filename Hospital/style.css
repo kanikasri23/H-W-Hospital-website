@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+
+}
+#header{
+    display: flex;
+    background-color: #205395;
+    height: 73px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.hlogo{
+    font-family: cursive;
+    margin-left: 25px;
+    color: white;
+    cursor: pointer;
+}
+.hulink{
+    display: flex;
+    margin-left: 246px;
+    margin-top: 3px;
+    font-size: 17px;
+
+}
+.hlink{
+    
+    margin: 20px;
+    list-style: none;
+    cursor: pointer;  
+}
+.ha{
+    text-decoration: none;
+    color: white; 
+}
+.ha:hover{
+    color: black;
+}
+.hbtn{
+    font-family: 'Poppins';
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 164px;
+    font-family: 'Poppins';
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: #205395;
+    margin-left: 28px;
+    cursor: pointer;
+}
+.hbtn:hover{
+    background-color: #205395;
+    color: white;
+}
+#content{
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.hspcontent{
+    position: absolute;
+    top: 174px;
+    margin-left: 74px;
+}
+.ctitle{
+    font-size: 36px;
+}
+.cpara{
+    line-height: 2;
+    font-size: 15px;
+    font-family: 'Poppins';
+    word-spacing: 2px;
+}
+.ca{
+    margin-right: 61px;
+    text-decoration: none;
+    color: #205395;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.ca1{
+    color: white;
+    background-color: #205395;
+    display: inline-block;
+    height: 34px;
+    width: 114px;
+    padding-left: 14px;
+    border-radius: 50px;
+    padding-top: 9px;
+}
+.ca1:hover{
+    background-color: white;
+    color: #205395;   
+}
+.fa-solid{
+    font-weight: 900;
+    margin-right: 12px;
+}
+#about{
+    display: flex;
+    overflow: hidden;
+    margin: 59px;
+}
+.aimg{
+    width: 547px;
+    height: 441px;
+}
+.acon{
+    margin-left: 72px;
+}
+.atitle{
+    font-size: 34px;
+    color: #205395;
+}
+
+.apara{
+    margin-top: -14px;
+    font-size: 16px;
+}
+.aul{
+    list-style: none;
+}
+.ali{
+    margin: 22px;
+}
+.aicon{
+    font-size: 33px;
+    color: #205395;
+    margin-left: 0px;
+}
+#subabout{
+    background-color: #f5f5f5;
+    display: flex;
+    color: #205395;
+}
+.sub{
+    background-color: white;
+    width: 220;
+    flex: 1;
+    margin: 32px;
+    text-align: center;
+    margin-top: 59px;
+    cursor: pointer;
+}
+.subicon{
+    border-style: solid;
+    background-color: #205395;
+    height: 50;
+    width: 50;
+    border-radius: 50px;
+    font-size: 30px;
+    border-color: #205395;
+    color: white;
+    position: relative;
+    top: -15;
+}
+#service{
+     overflow: hidden;
+     height: 522px;
+}
+.stitle{
+    font-size: 34px;
+    text-align: center;
+    color: #205395;
+    margin-top: 54px;
+}
+
+.line{
+    background-color: #205395;
+    height: 3px;
+    display: block;
+    width: 75px;
+    margin-left: 589px;
+    position: relative;
+    bottom: 22px;
+}
+.boxtitle{
+    color: #205395;
+}
+.spara{
+    text-align: center;
+    font-size: 15px;
+}
+.sboxes{
+    display: flex;
+    margin-left: 74px;
+    margin-right: 73;
+    margin-top: 85px;
+
+}
+.sbox{
+    flex: 1;
+    text-align: center;
+    margin: 13px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px #205395;
+}
+.sbox:hover{
+    background-color: #205395;
+    
+}
+.sbox:hover h1{
+    color: white;
+}
+.sbox:hover p{
+    color: white;
+}
+.sbox:hover span{
+    background-color: white;
+}
+.sbox:hover i{
+    color: white;
+}
+
+
+
+.sicon{
+    color: #205395;
+    font-size: 37px;
+}
+.line1,.line2,.line3{
+    background-color: #205395;
+    height: 3px;
+    display: block;
+    width: 75px;
+    margin-left: 142px;
+}
+
+    
+#doctors{
+    background-color: #f5f5f5;
+    height: 700px;
+    overflow: hidden;
+}
+.dtitle{
+    font-size: 34px;
+    text-align: center;
+    color: #205395;
+    margin-top: 54px;
+}
+.dline{
+    background-color: #205395;
+    height: 3px;
+    display: block;
+    width: 75px;
+    margin-left: 589px;
+    position: relative;
+    bottom: 22px;
+}
+.dpara{
+    text-align: center;
+    font-size: 15px;
+}
+.doctorsec{
+    display: flex;
+    
+}
+.dimg{
+    width: 249px;
+    height: 341px;
+}
+.dr{
+    flex: 1;
+    margin: 20 30;
+    display: inline-block;
+    border: 4px solid #BDBDBD;
+    text-align: center;
+}
+.dname{
+    color: #205395;
+}
+.dspec{
+    font-size: 13px;
+}
+#contact{
+    overflow: hidden;
+    height: 700;
+    
+}
+.contitle{
+    color: #205395;
+    font-size: 32px;
+    text-align: center;
+}
+.conline{
+    background-color: #205395;
+    height: 3px;
+    display: block;
+    width: 73px;
+    margin-left: 594px;
+    position: relative;
+    bottom: 22;
+}
+.conpara{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+.location{
+    display: flex;
+    padding: 10px 131px;
+}
+.lcomman{
+    flex: 1;
+    margin: 7;
+}
+.lright{
+    background-color: #205395; 
+    padding: 30 30 ;
+}
+.frow{
+    margin-bottom: 35px;
+}
+.cfield{
+    padding: 9px;
+    outline: 0;
+    height: 44px;
+    width: 219px;
+    border-radius: 5px;
+    border: 0;
+}
+.fone{
+    width: 440px;
+}
+.ftwo{
+    width: 440px;
+    height: 94px;
+}
+.cbtn{
+    height: 23px;
+    width: 136px;
+    border-radius: 103;
+    font-size: 16px;
+    margin-left: 136px;
+    cursor: pointer;
+    background-color: white;
+    color: #205395;
+    border-radius: 10px;
+    border: 0;
+}
+.cbtn:hover{
+    background-color: #205395;
+    color: white;
+}
+#footer{
+    overflow: hidden;
+    height: 140;
+    background-color: #205395;
+    color: white;
+    text-align: center;
+    
+}
+.ftitle{
+    font-size: 16px;
+}
+.fpara{
+    font-size: 13px;
+}
